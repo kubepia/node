@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: mycluster.icp:8500/pipeline/node
+        image: g3.skb:8500/dev-pipeline/node
         resources:
           requests:
             memory: "500Mi"
